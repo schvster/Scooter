@@ -1,0 +1,112 @@
+body {
+    background-color: #232323;
+    font-size: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    color: rgba(255, 255, 255, 0.836);
+}
+
+.Logo {
+    display: block;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 107px
+}
+
+.Renew {
+    float: right;
+    height: 40px;
+    width: 40px;
+}
+
+.info {
+    margin-top: 70px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trailer {
+    background-color: #232323;
+    border: 2px solid #F6D500;
+    color: #F6D500;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2em;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+}
+
+.trailer:hover {
+    background-color: #F6D500;
+    color: #232323;
+    border: 2px solid #F6D500;
+}
+
+.Poster {
+    border-radius: 10px;
+    float: left;
+    height: 381px;
+    width: 252px;
+    border: 1px solid #686868;
+    margin-right: 30px;
+}
+
+.titulo {
+    font-size: 31px;
+    margin-block-end: 0;
+    font-weight: bold;
+}
+
+.ano {
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.runtime {
+    font-size: 15px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.frase {
+    font-size: 20px;
+    font-weight: normal;
+    margin-block-start: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.sinopse {
+    font-size: 22px;
+}
+
+@media (max-width: 960px) {
+    .info {width: 650px;
+    }
+    .sinopse {
+        font-size: 22px;
+        margin-block-end: 70px;
+    }
+    .trailer {
+        padding: 8px 36px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 660px){
+    .info{
+        width: 365px;
+    }
+    .Poster {
+        margin-right: 71px;
+    }
+    .sinopse {
+        font-size: 22px;
+        margin-block-end: 60px;
+    }
+}
