@@ -63,11 +63,18 @@ h1 {
 
 @media (max-width: 500px) {
     .body {
-        width: 250px;
+        width: 280px;
         font-size: 0.7em;
     }
     .a {
         display: block;
         width: 250px;
+    }
+}
+
+@media (max-width: 320px) {
+    .body {
+        width: 210px;
+        font-size: 0.7em;
     }
 }
